@@ -1,0 +1,183 @@
+header{
+
+   position: fixed;
+   margin-top: 0;
+   top:0px;
+   vertical-align: baseline;
+   text-align:center;
+   color: white;
+   width: 100%;
+   z-index:999;
+    
+}
+
+#announcediv{
+
+    background-color:  rgb(65, 0, 153);
+    
+}
+
+html{
+
+    font-family: 'Open Sans', "Hiragino Sans", Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#navtable{
+    width: 100%;
+    background-color: white;
+    color: #410099;
+}
+
+.halfimage{
+    margin:auto;
+    display: inline;
+    min-height: 235px;
+    position:absolute;
+    width: 33%;
+    
+}
+
+#halfimage2{
+    margin:auto;
+    display: inline;
+    min-height: 235px;
+    position:relative;
+    width: 33%;
+    
+}
+
+
+
+
+figure{
+    display:table-cell;
+   
+    padding-left:8px;
+    
+}
+
+.fullsizeimage{
+
+    width: 82%;
+    right:10%;
+    position:absolute;
+    text-align:center;
+}
+
+figcaption{
+
+    padding-top:5px;
+
+font-size: 19px;
+margin: 5px 5px 5px 0;
+}
+
+.imgingallery{
+
+    width:261px;
+    height: auto;
+}
+
+h1{
+    font-size: 40px;
+
+font-weight: 300;
+
+line-height: 68px;
+
+letter-spacing: -2px;
+
+margin-bottom: 6px;
+}
+
+h2{
+
+    font-size: 48px;
+
+font-weight: 300;
+
+line-height: 48px;
+
+margin-bottom: 10px;
+}
+
+.overlayh1{
+    color: white;
+    position: absolute;
+    bottom: 60%;
+    left: 30%;
+    opacity: 1;
+    
+}
+.overlayp{
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    opacity: 1;
+
+    
+}
+
+
+
+video{
+    z-index: -3;
+    /* margin-left: 50%; */
+    /* height: 100%; */
+    width: 80%;
+    /* background-color: #400093; */
+    height: 100%;
+    left: 0;
+    /* opacity: .75; */
+    margin-top:50px;
+    padding: 50px;
+    }
+
+#centeraligndiv{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    
+}
+.videooverlay{
+
+
+    z-index: 6;
+    text-align:center;
+    /* background-color: #400093; */
+    
+    
+}
+
+#imagetext{
+
+    position: absolute;
+}
+
+
+.imggallerydiv{
+    position:relative;
+
+    margin-top:30%;
+}
+
+button{
+
+width: 50%;
+
+font-size: 25px;
+}
+
+footer{
+
+    color:white;
+    background-color:#400093;
+    padding-top:50px;
+    padding-bottom:15px;
+    margin-bottom:0px;
+    text-align: center;
+}
